@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@auth0/nextjs-auth0": "^3.2.0",
     "@kinde-oss/kinde-auth-nextjs": "^1.8.25",
     "@kinde-oss/kinde-auth-react": "^3.0.23",
+    "mongodb": "^6.2.0",
     "next": "14.0.1",
     "next-auth": "^4.24.4",
     "react": "^18",
@@ -18,8 +20,8 @@
   },
   "devDependencies": {
     "@types/node": "20.8.10",
-    "@types/react": "18.2.33",
-    "@types/react-dom": "^18",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.0.1",
