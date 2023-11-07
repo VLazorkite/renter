@@ -21,7 +21,7 @@ interface tenant {
 interface property {
   address: string;
   occupation_status: boolean;
-  tenant: tenant | null | undefined;
+  tenant?: tenant;
 }
 
 interface landlord {

@@ -1,7 +1,7 @@
 // "use client";
 import { withPageAuthRequired } from "@auth0/nextjs-auth0";
 
-export default withPageAuthRequired(function tenant() {
+export default withPageAuthRequired(function Tenant() {
   const tenancyAgreementLink = "https://example.com/tenancy-agreement.pdf";
   const address = "123 Main Street, Apartment 4B, City, State";
 

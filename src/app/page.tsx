@@ -10,6 +10,7 @@ export default function Home() {
       <br />
       <Logout />
       <ProfileClient />
+      <br />
       <Link href="/tenant">Tenant</Link>
     </>
   );
